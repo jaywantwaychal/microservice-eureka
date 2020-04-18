@@ -1,0 +1,8 @@
+package org.jdsolutions.movieinfo.resources;
+
+public class MovieInfo {
+	
+	private String name;
+	private String desc;
+	
+}

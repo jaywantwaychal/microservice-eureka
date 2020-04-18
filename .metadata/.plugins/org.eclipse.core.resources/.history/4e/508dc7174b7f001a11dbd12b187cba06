@@ -1,0 +1,11 @@
+package org.jdsolutions.ratingsdata.resources;
+
+import java.util.List;
+
+public class UserMovieRatings {
+	
+	private List<MovieRating> ratings;
+	
+	
+
+}

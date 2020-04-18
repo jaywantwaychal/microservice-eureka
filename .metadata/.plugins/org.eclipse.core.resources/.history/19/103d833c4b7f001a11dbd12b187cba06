@@ -1,0 +1,16 @@
+package org.jdsolutions.ratingsdata.resources;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/ratings")
+public class MovieRatingResource {
+
+	
+	@RequestMapping("/{movieId}")
+	public MovieRating getMovieRatings(@PathVariable("movieId") String movieId) {
+		return new MovieRating(movieId, 3);
+	}
+}

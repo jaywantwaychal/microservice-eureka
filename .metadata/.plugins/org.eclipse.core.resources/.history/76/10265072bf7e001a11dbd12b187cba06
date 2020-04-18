@@ -1,0 +1,30 @@
+package org.jdsolutions.movieinfo.resources;
+
+public class MovieInfo {
+	private String movieId;
+	private String name;
+	private String desc;
+	public MovieInfo(String name, String desc) {
+		super();
+		this.name = name;
+		this.desc = desc;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getDesc() {
+		return desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
+	@Override
+	public String toString() {
+		return "MovieInfo [name=" + name + ", desc=" + desc + "]";
+	}
+	
+	
+}

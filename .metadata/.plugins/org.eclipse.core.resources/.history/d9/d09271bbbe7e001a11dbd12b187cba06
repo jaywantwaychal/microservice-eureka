@@ -1,0 +1,14 @@
+package org.jdsolutions.movieinfo.resources;
+
+public class MovieInfo {
+	
+	private String name;
+	private String desc;
+	public MovieInfo(String name, String desc) {
+		super();
+		this.name = name;
+		this.desc = desc;
+	}
+	
+	
+}

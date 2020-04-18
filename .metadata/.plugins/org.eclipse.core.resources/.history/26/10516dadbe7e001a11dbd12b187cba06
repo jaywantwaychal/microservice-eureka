@@ -1,0 +1,5 @@
+package org.jdsolutions.movieinfo.resources;
+
+public class MovieInfo {
+
+}

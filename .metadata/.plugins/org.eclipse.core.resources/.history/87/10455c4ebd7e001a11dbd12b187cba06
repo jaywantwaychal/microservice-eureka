@@ -1,0 +1,11 @@
+package org.jdsolutions.moviecatelog.resources;
+
+public class CatelogItem {
+	
+	private String name;
+	private String desc;
+	private int rating;
+	
+	
+
+}

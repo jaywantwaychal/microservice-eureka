@@ -1,0 +1,15 @@
+package org.jdsolutions.moviecatelog.resources;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MovieCatelogResource {
+	
+	public List<CatelogItem> getCatelog(String userId) {
+		return null;
+		
+	}
+
+}

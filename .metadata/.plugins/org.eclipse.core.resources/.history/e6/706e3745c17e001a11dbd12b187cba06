@@ -1,0 +1,5 @@
+package org.jdsolutions.ratingsdata.resources;
+
+public class MovieRatingResource {
+
+}

@@ -1,0 +1,7 @@
+package org.jdsolutions.ratingsdata.resources;
+
+public class UserMovieRatings {
+	
+	
+
+}

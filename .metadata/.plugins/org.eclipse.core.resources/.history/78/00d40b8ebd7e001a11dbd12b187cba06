@@ -1,0 +1,19 @@
+package org.jdsolutions.moviecatelog.resources;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class MovieCatelogResource {
+	
+	public List<CatelogItem> getCatelog(String userId) {
+		
+		List<CatelogItem> items = new ArrayList<>();
+		items.add(new CatelogItem("movie1", "testing", 2));
+		return null;
+		
+	}
+
+}

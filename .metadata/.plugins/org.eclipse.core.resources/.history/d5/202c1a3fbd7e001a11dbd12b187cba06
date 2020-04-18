@@ -1,0 +1,5 @@
+package org.jdsolutions.moviecatelog.resources;
+
+public class CatelogItem {
+
+}
